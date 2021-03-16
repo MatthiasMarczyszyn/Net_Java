@@ -1,0 +1,6 @@
+src/Lab1/bin/*
+src/Lab1/obj/*
+test/Lab1test/obj/*
+test/Lab1test/bin/*
+.vscode/*
+.vs/*
