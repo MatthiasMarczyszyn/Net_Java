@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GeneratorCS
+namespace Lab1
 {
-    class RandomNumberGenerator
+    public class RandomNumberGenerator
     {
         private long seed;
 

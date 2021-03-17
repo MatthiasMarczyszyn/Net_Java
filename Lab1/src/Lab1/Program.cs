@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using GeneratorCS;
 
 namespace Lab1
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            
             var capacity = 0;
             var ammount = 0;
             Console.WriteLine("Add ammount of items:");
@@ -34,7 +34,7 @@ namespace Lab1
             var backpackValue = 0;
             foreach (var item in itemList)
             {
-                if (backpackWeight + weightList[item] <= capacity)
+                if (backpackWeight + weightList[item] <= capacity && (weightList[item] > 0 && valueList[item]>0))
                 {
                     backpackWeight += weightList[item];
                     backpackValue += valueList[item];
