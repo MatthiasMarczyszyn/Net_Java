@@ -1,5 +1,7 @@
 src/Lab1/bin/*
 src/Lab1/obj/*
+src/Lab1WPF/bin/*
+src/Lab1WPF/obj/*
 test/Lab1test/obj/*
 test/Lab1test/bin/*
 .vscode/*

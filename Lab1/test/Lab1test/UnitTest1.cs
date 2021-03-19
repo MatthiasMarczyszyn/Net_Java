@@ -30,7 +30,7 @@ namespace Lab1test
             List<int> weightTest2 = new List<int>{0,13,245698,-268,69,52}; 
             
             Assert.IsFalse(Program.KnapsackProblemNaive(10, itemTest1, valueTest1, weightTest1) == 10);       
-            Assert.IsTrue(Program.KnapsackProblemNaive(20, itemTest2, valueTest2, weightTest2) == 420);
+            Assert.Equals(Program.KnapsackProblemNaive(20, itemTest2, valueTest2, weightTest2), 420);
             Assert.Greater(Program.KnapsackProblemNaive(1000, itemTest1, valueTest1, weightTest1) , 211);
         }
     }
