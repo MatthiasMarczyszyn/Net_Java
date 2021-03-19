@@ -42,7 +42,7 @@ namespace Lab1WPF
                 valueList.Add(rng.nextInt(1, 29));
                 weightList.Add(rng.nextInt(1, 29));
             }
-            MessageBox.Show(Program.KnapsackProblemNaive(capacity,itemList,valueList,weightList).ToString());
+            MessageBox.Show("Bag value: " + Program.KnapsackProblemNaive(capacity,itemList,valueList,weightList).ToString());
         }
     }
 }
